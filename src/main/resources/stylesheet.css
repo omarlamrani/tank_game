@@ -1,0 +1,72 @@
+/*main menu styling*/
+.menu {
+    -fx-background-color: linear-gradient(from 5px 5px to 100px 100px, #353535, #010810);
+    -fx-text-fill: white;
+}
+
+
+/*styles main label used in menu*/
+
+.heading {
+    -fx-font-size: 100px;
+    -fx-font-weight: bold;
+    -fx-padding: 60px;
+    -fx-text-fill: linear-gradient(#32CD32, #7FFF00), linear-gradient(#32CD32, #7CFC00)
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+.normalText {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(#32CD32, #7FFF00), linear-gradient(#32CD32, #7CFC00)
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+.normalLabel {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(#32CD32, #7FFF00), linear-gradient(#32CD32, #7CFC00)
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+
+}
+
+
+/*styles buttons*/
+.button, .choice-box{
+    -fx-background-color: linear-gradient(#32CD32, #228B22), linear-gradient(#32CD32, #7CFC00)
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -fx-background-radius: 10;
+    -fx-background-insets: 0, 1, 2, 3, 0;
+    -fx-text-fill: #010810;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}
+.choice-box{
+    -fx-font-size: 20px;
+}
+
+
+
+/*button hovering*/
+.button:hover {
+    -fx-background-color: linear-gradient(#7FFF00, #228B22),
+    linear-gradient(#32CD32, #7CFC00),
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+.slider .track {
+    -fx-pref-height: 10;
+    -fx-background-color: linear-gradient(#7FFF00, #228B22),
+    linear-gradient(#32CD32, #7CFC00);
+}
+
+.slider .thumb {
+    -fx-pref-height: 60;
+    -fx-pref-width: 60;
+    -fx-background-color: linear-gradient(#32CD32, #228B22),  linear-gradient(#32CD32, #7CFC00)
+    linear-gradient(from 0% 0% to 15% 50%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+
